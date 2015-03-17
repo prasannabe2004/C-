@@ -1,0 +1,5 @@
+00:36:34 **** Incremental Build of configuration Debug for project Cpp2011 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -o cpp2011.o "..\\cpp2011.cpp" 
+g++ -o Cpp2011.exe cpp2011.o 
+Info: Nothing to build for Cpp2011
