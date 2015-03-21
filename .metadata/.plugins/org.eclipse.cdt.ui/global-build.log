@@ -1,17 +1,5 @@
-16:32:07 **** Incremental Build of configuration Debug for project FindNeedle ****
+13:40:08 **** Rebuild of configuration Debug for project Class ****
 Info: Internal Builder is used for build
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -o FindNeedle.o "..\\FindNeedle.cpp" 
-g++ -o FindNeedle.exe FindNeedle.o 
-Info: Nothing to build for FindNeedle
-16:33:43 **** Clean-only build of configuration Debug for project FindNeedle ****
-rm -rf FindNeedle.d FindNeedle.o FindNeedle.exe 
-16:35:08 **** Clean-only build of configuration Debug for project Cpp2011 ****
-rm -rf cpp2011.d Cpp2011.exe cpp2011.o 
-16:35:08 **** Clean-only build of configuration Debug for project FindNeedle ****
-rm -rf FindNeedle.d FindNeedle.o FindNeedle.exe 
-16:35:19 **** Clean-only build of configuration Debug for project Cpp2011 ****
-rm -rf cpp2011.d Cpp2011.exe cpp2011.o 
-16:35:19 **** Clean-only build of configuration Debug for project FindNeedle ****
-rm -rf FindNeedle.d FindNeedle.o FindNeedle.exe 
-16:35:19 **** Clean-only build of configuration Debug for project HelloWorld ****
-rm -rf HelloWorld.exe HelloWorld.o HelloWorld.d 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o class.o "..\\class.cpp" 
+g++ -o Class.exe class.o 
+Info: Nothing to build for Class

@@ -1,0 +1,35 @@
+/*
+ * FindNeedle.cpp
+ *
+ *  Created on: Mar 19, 2015
+ *      Author: PMohanasundaram
+ */
+
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+int main()
+{
+	string str("There are two needle in this haystack needle");
+
+	string str2("needle");
+
+	int found = str.find(str2);
+
+	cout << found << endl;
+
+	found = str.find(str2, found+1);
+
+	cout << found << endl;
+
+	found = str.find(str2, found+1);
+
+	cout << found << endl;
+
+
+	return 0;
+}
+
+
