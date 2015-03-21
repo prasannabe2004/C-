@@ -12,17 +12,14 @@ class myClass {
 private:
 	int var;
 public:
-	// Constructor
 	myClass()
 	{
 		var = 0;
 	}
-	//Get Method
 	int getNumber()
 	{
 		return var;
 	}
-	//Set Method
 	void setNumber(int arg)
 	{
 		var = arg;

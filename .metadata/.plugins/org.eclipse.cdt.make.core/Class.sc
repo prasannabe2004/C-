@@ -277,6 +277,7 @@
 <collector id="org.eclipse.cdt.make.core.PerProjectSICollector">
 <includePath path="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/4.9.2/include"/>
 <includePath path="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/4.9.2/include-fixed"/>
+<includePath path="#undef _REENTRANT" removed="true"/>
 <includePath path="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/include"/>
 <definedSymbol symbol="__STDC__=1"/>
 <definedSymbol symbol="__STDC_HOSTED__=1"/>

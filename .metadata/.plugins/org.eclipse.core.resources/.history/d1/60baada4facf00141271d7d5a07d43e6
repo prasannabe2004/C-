@@ -22,7 +22,7 @@ public:
 	{
 		return var;
 	}
-	//Set Method
+	//Set MEthod
 	void setNumber(int arg)
 	{
 		var = arg;
