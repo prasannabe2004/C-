@@ -1,1 +1,16 @@
 # depslib dependency file v1.0
+1427224938 source:c:\users\pmohanasundaram\documents\github\cpp\birthday\birthday.cpp
+	"Birthday.h"
+	<iostream>
+
+1427224590 c:\users\pmohanasundaram\documents\github\cpp\birthday\birthday.h
+
+1427237524 source:c:\users\pmohanasundaram\documents\github\cpp\birthday\people.cpp
+	<iostream>
+	"People.h"
+	"Birthday.h"
+
+1427237203 c:\users\pmohanasundaram\documents\github\cpp\birthday\people.h
+	<string>
+	"Birthday.h"
+
