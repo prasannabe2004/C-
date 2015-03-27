@@ -1,9 +1,13 @@
 #include <iostream>
+#include "Hannah.h"
 
 using namespace std;
 
 int main()
 {
-    cout << "Hello world!" << endl;
+    Hannah obj(100);
+
+    obj.printVar();
+
     return 0;
 }
