@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1427563587 source:c:\users\pmohanasundaram\documents\github\cpp\inheritance\daughter.cpp
+	<iostream>
+	"Mother.h"
+	"Daughter.h"
+
+1427564465 c:\users\pmohanasundaram\documents\github\cpp\inheritance\mother.h
+
+1427563740 c:\users\pmohanasundaram\documents\github\cpp\inheritance\daughter.h
+
+1427563587 source:c:\users\pmohanasundaram\documents\github\cpp\inheritance\main.cpp
+	<iostream>
+	"Mother.h"
+	"Daughter.h"
+
+1427563393 source:c:\users\pmohanasundaram\documents\github\cpp\inheritance\mother.cpp
+	<iostream>
+	"Mother.h"
+	"Daughter.h"
+
