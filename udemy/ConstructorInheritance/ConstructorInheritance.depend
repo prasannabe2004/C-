@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1437596837 source:c:\users\pmohanasundaram\documents\github\cpp\udemy\constructorinheritance\main.cpp
+	<iostream>
+	"machine.h"
+
+1437596411 source:c:\users\pmohanasundaram\documents\github\cpp\udemy\constructorinheritance\car.cpp
+	"Car.h"
+
+1437596599 c:\users\pmohanasundaram\documents\github\cpp\udemy\constructorinheritance\car.h
+	"Vehicle.h"
+
+1437597042 c:\users\pmohanasundaram\documents\github\cpp\udemy\constructorinheritance\vehicle.h
+	"Machine.h"
+
+1437596825 c:\users\pmohanasundaram\documents\github\cpp\udemy\constructorinheritance\machine.h
+
+1437596796 source:c:\users\pmohanasundaram\documents\github\cpp\udemy\constructorinheritance\machine.cpp
+	"Machine.h"
+
+1437596395 source:c:\users\pmohanasundaram\documents\github\cpp\udemy\constructorinheritance\vehicle.cpp
+	"Vehicle.h"
+

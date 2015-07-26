@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1437055796 source:c:\users\pmohanasundaram\documents\github\cpp\udemy\constructorinit\main.cpp
+	<iostream>
+	"Person.h"
+
+1437055583 c:\users\pmohanasundaram\documents\github\cpp\udemy\constructorinit\person.h
+	<iostream>
+
+1437055240 source:c:\users\pmohanasundaram\documents\github\cpp\udemy\constructorinit\person.cpp
+	"Person.h"
+	<sstream>
+

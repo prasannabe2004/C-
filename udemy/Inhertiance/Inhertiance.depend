@@ -1,0 +1,24 @@
+# depslib dependency file v1.0
+1437594399 source:c:\users\pmohanasundaram\documents\github\cpp\udemy\inhertiance\animal.cpp
+	"Animal.h"
+
+1437594373 c:\users\pmohanasundaram\documents\github\cpp\udemy\inhertiance\animal.h
+	<iostream>
+
+1437594397 source:c:\users\pmohanasundaram\documents\github\cpp\udemy\inhertiance\cat.cpp
+	"Cat.h"
+
+1437594381 c:\users\pmohanasundaram\documents\github\cpp\udemy\inhertiance\cat.h
+	"Animal.h"
+	<iostream>
+
+1437594597 source:c:\users\pmohanasundaram\documents\github\cpp\udemy\inhertiance\main.cpp
+	<iostream>
+	"Animal.h"
+	"Cat.h"
+	"Tiger.h"
+
+1437594573 c:\users\pmohanasundaram\documents\github\cpp\udemy\inhertiance\tiger.h
+	"Cat.h"
+	<iostream>
+

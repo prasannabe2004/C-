@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1437508605 source:c:\users\pmohanasundaram\documents\github\cpp\cppinstitute\passingbypointer\main.cpp
+	<iostream>
+	<string>
+

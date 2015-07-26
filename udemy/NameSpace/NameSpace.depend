@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1437593209 source:c:\users\pmohanasundaram\documents\github\cpp\cppinstitute\namespace\animal.cpp
+	"Animal.h"
+	<iostream>
+
+1437593511 c:\users\pmohanasundaram\documents\github\cpp\cppinstitute\namespace\animal.h
+	<iostream>
+
+1437593371 source:c:\users\pmohanasundaram\documents\github\cpp\cppinstitute\namespace\main.cpp
+	<iostream>
+	"Cat.h"
+	"Animal.h"
+
+1437593496 c:\users\pmohanasundaram\documents\github\cpp\cppinstitute\namespace\cat.h
+	<iostream>
+
+1437593028 source:c:\users\pmohanasundaram\documents\github\cpp\cppinstitute\namespace\cat.cpp
+	"Cat.h"
+	<iostream>
+
