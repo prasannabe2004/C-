@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1439241907 source:c:\users\pmohanasundaram\documents\github\cpp\cppinstitute\scratchpad\main.cpp
+	<iostream>
+	<string>
+	<iostream>
+	<iostream>
+	<iostream>
+	<iostream>
+	<iostream>
+	<iostream>
+	<iostream>
+	<iostream>
+	<exception>
+
