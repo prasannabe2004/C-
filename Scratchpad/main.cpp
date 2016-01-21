@@ -8,7 +8,9 @@ int main()
 
     long double l = 10;
 
-    cout << l <<endl;
+    char c = '\x40';
+
+    cout << "%c" << c <<endl;
 
     return 0;
 }
