@@ -3,10 +3,10 @@
 ## any manual changes will be erased      
 ##
 ## Debug
-ProjectName            :=enumeration
+ProjectName            :=arrays
 ConfigurationName      :=Debug
 WorkspacePath          := "/home/prasanna/codelite"
-ProjectPath            := "/home/prasanna/codelite/Cpp/mystuffs/codelite/enumeration"
+ProjectPath            := "/home/prasanna/codelite/Cpp/mystuffs/codelite/arrays"
 IntermediateDirectory  :=./Debug
 OutDir                 := $(IntermediateDirectory)
 CurrentFileName        :=
@@ -32,7 +32,7 @@ Preprocessors          :=
 ObjectSwitch           :=-o 
 ArchiveOutputSwitch    := 
 PreprocessOnlySwitch   :=-E
-ObjectsFileList        :="enumeration.txt"
+ObjectsFileList        :="arrays.txt"
 PCHCompileFlags        :=
 MakeDirCommand         :=mkdir -p
 LinkOptions            :=  
@@ -50,7 +50,7 @@ LibPath                := $(LibraryPathSwitch).
 AR       := /usr/bin/ar rcu
 CXX      := /usr/bin/g++
 CC       := /usr/bin/gcc
-CXXFLAGS :=  -g -O0 -Wall -lstdc++ -std=c++1y $(Preprocessors)
+CXXFLAGS :=  -g -O0 -Wall -std=c++11 $(Preprocessors)
 CFLAGS   :=  -g -O0 -Wall $(Preprocessors)
 ASFLAGS  := 
 AS       := /usr/bin/as
@@ -92,7 +92,7 @@ PreBuild:
 ## Objects
 ##
 $(IntermediateDirectory)/main.cpp$(ObjectSuffix): main.cpp $(IntermediateDirectory)/main.cpp$(DependSuffix)
-	$(CXX) $(IncludePCH) $(SourceSwitch) "/home/prasanna/codelite/Cpp/mystuffs/codelite/enumeration/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
+	$(CXX) $(IncludePCH) $(SourceSwitch) "/home/prasanna/codelite/Cpp/mystuffs/codelite/arrays/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/main.cpp$(DependSuffix): main.cpp
 	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/main.cpp$(ObjectSuffix) -MF$(IntermediateDirectory)/main.cpp$(DependSuffix) -MM "main.cpp"
 
