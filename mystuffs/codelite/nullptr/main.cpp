@@ -6,6 +6,13 @@ int main(int argc, char **argv)
 {
 	int* ptr = nullptr;
 	
-	cout << "hello world\n" << endl;
+	ptr = new int;
+	
+	*ptr = 8;
+	
+	cout << *ptr << endl;
+	
+	delete ptr;
+	
 	return 0;
 }
