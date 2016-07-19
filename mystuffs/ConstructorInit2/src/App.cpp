@@ -8,7 +8,7 @@
 #include "App.h"
 
 App::App() :
-x(1),y(2),z(3)
+x(1),y(2),z(3),pp(4)
 {
 
 }
