@@ -1,0 +1,7 @@
+#!/bin/bash
+
+sudo apt-get install  libmicrohttpd10
+sudo apt-get install  libmicrohttpd-dev
+sudo apt-get install libboost1.58-dev
+sudo apt-get install libboost-regex1.58.0
+sudo ln -s /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.58.0 /usr/lib/x86_64-linux-gnu/libboost_regex.so
